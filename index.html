@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Exercicios</title>
+   <link rel="stylesheet" href="./assets/css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+</head>
+
+<body>
+   <section class="container">
+      <h1 class="titulo">Tabela IMC</h1>
+      <div class="tabela">
+         <div class="tabela__imc">
+            <h3 class="subtitulo">IMC</h3>
+            <p class="texto">Menos do que 18,5</p>
+            <p class="texto">Entre 18,5 e 24,9</p>
+            <p class="texto">Entre 25 e 29,9</p>
+            <p class="texto">Entre 30 e 34,9</p>
+            <p class="texto">Entre 35 e 39,9</p>
+            <p class="texto">Mais do que 40</p>
+         </div>
+         <div class="tabela__resultado">
+            <h3 class="subtitulo">Resultado</h3>
+            <p class="texto">Abaixo do peso</p>
+            <p class="texto">Peso normal</p>
+            <p class="texto">Sobrepeso</p>
+            <p class="texto">Obesidade grau 1</p>
+            <p class="texto">Obresidade grau 2</p>
+            <p class="texto">Obresidade grau 3</p>
+         </div>
+      </div>
+      <h1 class="titulo">Calcule seu IMC</h1>
+      <form action="#" class="form">
+         <label for="peso">Peso Ex.: 72</label>
+         <input type="text" name="peso" id="peso" placeholder="kg" required>
+         <label for="altura">Altura Ex.: 180</label>
+         <input type="altura" name="altura" id="altura" placeholder="cm" required>
+         <button type="submit" id="btnCalcular">Calcular</button>
+      </form>
+      <p class="resultado-final"></p>
+   </section>
+   <footer class="rodape">
+      <p class="direitos">Todos os direitos reservados &copy;Calculadora de IMC</p>
+   </footer>
+   <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
