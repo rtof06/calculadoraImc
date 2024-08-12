@@ -78,3 +78,25 @@ form input:focus {
    padding-bottom: 1em;
    text-align: center;
 }
+
+@media (max-width: 400px) {
+   .titulo {
+      font-size: 24px;
+   }
+
+   .subtitulo {
+      font-size: 24px;
+   }
+
+   .texto {
+      font-size: 14px;
+   }
+
+   label {
+      font-size: 1rem;
+   }
+
+   .direitos {
+      font-size: 10px;
+   }
+}
