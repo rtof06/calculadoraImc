@@ -79,7 +79,7 @@ form input:focus {
    text-align: center;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
 
    .container{
       margin: 0;
