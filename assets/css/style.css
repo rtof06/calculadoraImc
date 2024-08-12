@@ -80,8 +80,14 @@ form input:focus {
 }
 
 @media (max-width: 400px) {
+
+   .container{
+      margin: 0;
+   }
+
    .titulo {
-      font-size: 24px;
+      text-align: center;
+      font-size: 1.5rem;
    }
 
    .subtitulo {
@@ -97,6 +103,7 @@ form input:focus {
    }
 
    .direitos {
+      padding-top: 1em;
       font-size: 10px;
    }
 }
