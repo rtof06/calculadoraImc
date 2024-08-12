@@ -22,27 +22,27 @@ function calculaIMC() {
 
    if (isNaN(imc) === false) {
       if (imc < 18.5) {
-         resultado.innerHTML += `Seu imc é ${imc}`;
+         resultado.innerHTML = `<p>Seu imc é ${imc}</p>`;
          abaixoDoPeso(resultado);
       }
       else if (imc >= 18.5 <= 24.9) {
-         resultado.innerHTML += `Seu imc é ${imc}`;
+         resultado.innerHTML = `Seu imc é ${imc}</Sp>`;
          pesoNormal(resultado);
       }
       else if (imc >= 25 <= 29.9) {
-         resultado.innerHTML += `Seu imc é ${imc}`;
+         resultado.innerHTML = `<p>Seu imc é ${imc}</p>`;
          sobrepeso(resultado);
       }
       else if (imc >= 30 <= 34.9) {
-         resultado.innerHTML += `Seu imc é ${imc}`;
+         resultado.innerHTML = `<p>Seu imc é ${imc}</p>`;
          obesidadeGrauUm(resultado);
       }
       else if (imc >= 35 <= 39.9) {
-         resultado.innerHTML += `Seu imc é ${imc}`;
+         resultado.innerHTML = `<p>Seu imc é ${imc}</p>`;
          obesidadeGrauDois(resultado);
       }
       else if (imc >= 40) {
-         resultado.innerHTML += `Seu imc é ${imc}`;
+         resultado.innerHTML = `<p>Seu imc é ${imc}</p>`;
          obesidadeGrauTres(resultado);
       }
    } else {
