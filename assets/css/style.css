@@ -69,6 +69,9 @@ form input:focus {
 
 .resultado-final {
    display: none;
+   padding: .5em;
+   margin: .5em;
+   border-radius: 5px;
 }
 
 .rodape {
